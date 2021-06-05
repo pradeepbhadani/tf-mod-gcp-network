@@ -1,2 +1,2 @@
 # tf-mod-gcp-network
-Terraform module for GCP Network
+This terraform module creates a VPC and a subnet.
