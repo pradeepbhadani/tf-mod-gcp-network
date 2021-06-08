@@ -60,3 +60,9 @@ variable "private_ip_google_access" {
   type        = bool
   default     = true
 }
+
+variable "ssh_source_ranges" {
+  description = "Source IP CIDR ranges for SSH."
+  type        = list(string)
+  default     = ["0.0.0.0/0"]
+}
